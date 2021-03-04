@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="layui/css/layui.css" />
+		<style type="text/css">
+			.a {
+				text-align: center;
+				margin-top: 20%;
+				color: #FF0000;
+			}
+		</style>
+	</head>
+	<body>
+		
+				<div id="" class="a">
+					<h1>九月九日忆山东兄弟</h1><br />
+					<h1>独在异乡为异客</h1><br />
+					<h1>每逢佳节倍思亲</h1><br />
+					<h1>遥知兄弟登高处</h1><br />
+					<h1>遍插茱萸少一人</h1>
+				</div>
+	</body>
+</html>
