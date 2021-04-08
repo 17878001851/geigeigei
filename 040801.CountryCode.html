@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.7/vue.js"></script>
+	</head>
+	<body>
+			<div id="app">
+				<input v-model="num">
+				<p v-for="c in codes" v-if="num==c.code">
+					{{c.code}}
+					{{c.country}}
+					{{c.local}}
+				</p>
+			</div>
+			<script>
+				let v=new Vue({
+					el:'#app',
+					data(){
+						return{
+							num:'',
+							codes:[
+								{code:'86',country:'中国',local:'北京'},
+								{code:'1',country:'美国',local:'华盛顿'},
+								{code:'81',country:'日本',local:'东京'},
+								{code:'44',country:'英国',local:'伦敦'},
+								{code:'84',country:'越南',local:'胡志明市'}
+							],
+						}
+					}
+				})
+			</script>
+			
+			
+			
+	</body>
+</html>
